@@ -2,12 +2,15 @@ const BLOG = {
   title: 'Notionic',
   author: '左蓝',
   email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
+  link: 'https://zbnn.zeabur.app',
+  newsletter: 'XingLuo\'s Blog',
   description: 'A static blog build on top of Notion and Next.js',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
+
+
+
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Notionic in a folder
@@ -28,9 +31,9 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com',
+    github: 'https://github.com/king-zhangbn',
+    telegram: 'https://t.me/'
   },
   seo: {
     keywords: ['Notionic', 'Zuolan', 'Blog'],
@@ -66,10 +69,10 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'supacomments', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
-      supabaseUrl: '', // The url of your Supabase instance
-      supabaseAnonKey: '' // The anonymous key of your Supabase instance
+      supabaseUrl: 'https://ixokpqrudforajayakgr.supabase.co', // The url of your Supabase instance
+      supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml4b2twcXJ1ZGZvcmFqYXlha2dyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzkwMjgxODEsImV4cCI6MTk5NDYwNDE4MX0.vu-FI6y7qmaNlO22MYTuTcPqX8dT52WRR5mBEoyjzN4' // The anonymous key of your Supabase instance
     },
     utterancesConfig: {
       repo: ''
