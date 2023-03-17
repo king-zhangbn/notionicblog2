@@ -1,6 +1,6 @@
 const BLOG = {
-  title: 'Notionic',
-  author: '左蓝',
+  title: 'XingLuo\'s Blog',
+  author: 'XingLuo',
   email: 'i@zuolan.me',
   link: 'https://zbnn.zeabur.app',
   newsletter: 'XingLuo\'s Blog',
