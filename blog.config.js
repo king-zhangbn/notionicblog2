@@ -25,7 +25,7 @@ const BLOG = {
     books: true,
     friends: true
   },
-  showWeChatPay: true,
+  showWeChatPay: false,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
@@ -69,7 +69,7 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
-    provider: 'supacomments', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
       supabaseUrl: 'https://ixokpqrudforajayakgr.supabase.co', // The url of your Supabase instance
       supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml4b2twcXJ1ZGZvcmFqYXlha2dyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzkwMjgxODEsImV4cCI6MTk5NDYwNDE4MX0.vu-FI6y7qmaNlO22MYTuTcPqX8dT52WRR5mBEoyjzN4' // The anonymous key of your Supabase instance
